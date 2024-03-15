@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="8496f3121bd03c10aedf54252a4bcb6a" extends="task" label="Health Management Case" max_length="40" name="x_snc_value_base_0_health_management_case" type="collection">
+        <element choice="1" label="Case Type" max_length="40" name="case_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Diabetes Management" sequence="10" value="diabetes_management"/>
+            </choice>
+        </element>
+        <element label="Patient" max_length="32" name="patient" reference="x_snc_value_base_0_patient" type="reference"/>
+        <element label="Provider" max_length="32" name="provider" reference="sys_user" type="reference"/>
+    </element>
+</database>

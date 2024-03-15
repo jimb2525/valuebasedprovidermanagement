@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="91cb19771b0d3010fc7d0f6cdc4bcbc8" extends="task" label="Provider Coaching Session" max_length="40" name="x_snc_value_base_0_provider_coaching_session" type="collection">
+        <element label="Patient" max_length="32" name="patient" reference="x_snc_value_base_0_patient" type="reference"/>
+        <element label="Provider" max_length="32" name="provider" reference="x_snc_value_base_0_provider" type="reference"/>
+        <element label="Session Date" max_length="40" name="session_date" type="glide_date_time"/>
+    </element>
+</database>

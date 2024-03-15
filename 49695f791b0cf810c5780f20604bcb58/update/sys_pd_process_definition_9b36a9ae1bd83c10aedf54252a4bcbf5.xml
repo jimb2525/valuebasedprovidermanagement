@@ -1,0 +1,1670 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition">
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <description/>
+        <designer_state/>
+        <label>Diabetes Management</label>
+        <name>diabetes_management</name>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <schema_version/>
+        <snapshot display_value="diabetes_management">9a2296ea1bdc3c10aedf54252a4bcb73</snapshot>
+        <status>published</status>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:39:07</sys_created_on>
+        <sys_id>9b36a9ae1bd83c10aedf54252a4bcbf5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Diabetes Management</sys_name>
+        <sys_package display_value="Value Based Provider Management" source="x_snc_value_base_0">49695f791b0cf810c5780f20604bcb58</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Value Based Provider Management">49695f791b0cf810c5780f20604bcb58</sys_scope>
+        <sys_update_name>sys_pd_process_definition_9b36a9ae1bd83c10aedf54252a4bcbf5</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 14:51:01</sys_updated_on>
+        <view_type>KANBAN</view_type>
+    </sys_pd_process_definition>
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <description/>
+        <designer_state/>
+        <label>Diabetes Management</label>
+        <name>diabetes_management</name>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <schema_version/>
+        <snapshot display_value="diabetes_management">9a2296ea1bdc3c10aedf54252a4bcb73</snapshot>
+        <status>published</status>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:39:07</sys_created_on>
+        <sys_id>9b36a9ae1bd83c10aedf54252a4bcbf5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Diabetes Management</sys_name>
+        <sys_package display_value="Value Based Provider Management" source="x_snc_value_base_0">49695f791b0cf810c5780f20604bcb58</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Value Based Provider Management">49695f791b0cf810c5780f20604bcb58</sys_scope>
+        <sys_update_name>sys_pd_process_definition_9b36a9ae1bd83c10aedf54252a4bcbf5</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 14:51:01</sys_updated_on>
+        <view_type>KANBAN</view_type>
+    </sys_pd_process_definition>
+    <sys_pd_lane action="delete_multiple" query="process_definition=9b36a9ae1bd83c10aedf54252a4bcbf5^sys_idNOT IN0466adae1bd83c10aedf54252a4bcbe5,b466edae1bd83c10aedf54252a4bcb3c"/>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description/>
+        <label>Initiation</label>
+        <lane_condition/>
+        <name>initiation</name>
+        <order>1</order>
+        <process_definition display_value="Diabetes Management">9b36a9ae1bd83c10aedf54252a4bcbf5</process_definition>
+        <start_rule display_value="Immediately">b823830967fc41ddb84959d97897b1ae</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:39:42</sys_created_on>
+        <sys_id>0466adae1bd83c10aedf54252a4bcbe5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:03</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_variable_value action="delete_multiple" query="document_key=0466adae1bd83c10aedf54252a4bcbe5"/>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description/>
+        <label>Schedule</label>
+        <lane_condition/>
+        <name>schedule</name>
+        <order>1</order>
+        <process_definition display_value="Diabetes Management">9b36a9ae1bd83c10aedf54252a4bcbf5</process_definition>
+        <start_rule display_value="After Previous">3f030dc5bd8842aebc1fa64716545da2</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:39:46</sys_created_on>
+        <sys_id>b466edae1bd83c10aedf54252a4bcb3c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 14:50:29</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_variable_value action="delete_multiple" query="document_key=b466edae1bd83c10aedf54252a4bcb3c"/>
+    <sys_pd_activity action="delete_multiple" query="process_definition=9b36a9ae1bd83c10aedf54252a4bcbf5^sys_idNOT INd837adae1bd83c10aedf54252a4bcbbe,c686edae1bd83c10aedf54252a4bcb45"/>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Create Task">b64cc4890f200010f5bf5ae9c4767ecc</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description>Identify opportunities to add services to scheduled visits</description>
+        <inputs/>
+        <inputs/>
+        <label>Schedule Patient Services</label>
+        <lane display_value="Schedule">b466edae1bd83c10aedf54252a4bcb3c</lane>
+        <name>create_task</name>
+        <order>1</order>
+        <outputs/>
+        <process_definition display_value="Diabetes Management">9b36a9ae1bd83c10aedf54252a4bcbf5</process_definition>
+        <start_rule display_value="After Previous">eb98b4955ba74acab978af26ad083f61</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>d837adae1bd83c10aedf54252a4bcbbe</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 14:50:43</sys_updated_on>
+        <type_vals/>
+        <type_vals/>
+    </sys_pd_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=d837adae1bd83c10aedf54252a4bcbbe"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>103721221b1c3c10aedf54252a4bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <value/>
+        <variable display_value="Footer">71ae56b6b74100101a6ddb91de11a9a1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>143721221b1c3c10aedf54252a4bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <value/>
+        <variable display_value="Attachment Source">4f0e5d7e736100104a905ee515f6a70b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>143721221b1c3c10aedf54252a4bcb66</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:45:54</sys_updated_on>
+        <value>x_snc_value_base_0_health_management_case_task</value>
+        <variable display_value="Task Table">b3b5c1981bd81010affd0e55cc4bcbac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>183721221b1c3c10aedf54252a4bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <value>Create Task Record</value>
+        <variable display_value="Pending State Title">e9ae23190700101070e493d0fad300c1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>9</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>183721221b1c3c10aedf54252a4bcb65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Wait for task completion">df4fb3d81b905010affd0e55cc4bcbed</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>1c3721221b1c3c10aedf54252a4bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <value>&lt;p&gt;{{act.d837adae1bd83c10aedf54252a4bcbbe.description}}&lt;/p&gt;</value>
+        <variable display_value="Description">1d27b10ac7200010bfbaf89f51c26016</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>503721221b1c3c10aedf54252a4bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <value>Create Task</value>
+        <variable display_value="Tagline">9a0c340673030010fe4a6da44cf6a7de</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>503721221b1c3c10aedf54252a4bcb66</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 14:50:43</sys_updated_on>
+        <value/>
+        <variable display_value="Fields">7fb5c1981bd81010affd0e55cc4bcbb1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>543721221b1c3c10aedf54252a4bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <value/>
+        <variable display_value="Form fields">fbc1f11b5b40001070e4492c11f91a45</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>543721221b1c3c10aedf54252a4bcb65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <value/>
+        <variable display_value="Assignment Group for this Process Step">afb5c1981bd81010affd0e55cc4bcb7f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>583721221b1c3c10aedf54252a4bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <value>document_outline</value>
+        <variable display_value="Icon">ad4db04673030010fe4a6da44cf6a798</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>5c3721221b1c3c10aedf54252a4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <value/>
+        <variable display_value="Experience Status Record">5e5272b2c3211010381b60bc0eba8f13</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>5c3721221b1c3c10aedf54252a4bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <value/>
+        <variable display_value="Form View">7cb449e85b41001070e4492c11f91a06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>903721221b1c3c10aedf54252a4bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <value>{{act.d837adae1bd83c10aedf54252a4bcbbe.label}}</value>
+        <variable display_value="Title">13597d8ac7200010bfbaf89f51c2609e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>903721221b1c3c10aedf54252a4bcb65</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:45:54</sys_updated_on>
+        <value>no</value>
+        <variable display_value="Wait for user input">bbb5c1981bd81010affd0e55cc4bcbba</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>943721221b1c3c10aedf54252a4bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <value/>
+        <variable display_value="Associated record">8c1ef8e40f100010f5bf5ae9c4767ed6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>983721221b1c3c10aedf54252a4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <value/>
+        <variable display_value="Associated table">77edf4e40f100010f5bf5ae9c4767edb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>983721221b1c3c10aedf54252a4bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Show Checklist">d803775a5b01001031a67d6f7281c7aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>9c3721221b1c3c10aedf54252a4bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <value>sys_flow_data</value>
+        <variable display_value="Experience Status Table">4612be72c3211010381b60bc0eba8f47</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>9c3721221b1c3c10aedf54252a4bcb65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <value/>
+        <variable display_value="Assigned To">42f16b141b505010affd0e55cc4bcbec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>d03721221b1c3c10aedf54252a4bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Is Automated">63fd1eeac7e60010bfbaf89f51c26059</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>d43721221b1c3c10aedf54252a4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <value/>
+        <variable display_value="Pending State Description">6688ff5d0700101070e493d0fad300f6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>d43721221b1c3c10aedf54252a4bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <value/>
+        <variable display_value="Record fields">05bee8875b00001070e4492c11f91afb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>d43721221b1c3c10aedf54252a4bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <value/>
+        <variable display_value="Assigned to this Process Step">77b5c1981bd81010affd0e55cc4bcba3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>d83721221b1c3c10aedf54252a4bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Show SLA">54c49bc60f3200102920c912d4767ee2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>8</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>d83721221b1c3c10aedf54252a4bcb65</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:45:54</sys_updated_on>
+        <value/>
+        <variable display_value="Fields to show after creation">ffb5c1981bd81010affd0e55cc4bcbc4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>dc3721221b1c3c10aedf54252a4bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Attachments read only">576de7780f1300102920c912d4767e52</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>d837adae1bd83c10aedf54252a4bcbbe</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>dc3721221b1c3c10aedf54252a4bcb64</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:45:54</sys_updated_on>
+        <value>Identify opportunities to add services to scheduled visits</value>
+        <variable display_value="Short Description">42c3d1d01b1c1010affd0e55cc4bcb5b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d837adae1bd83c10aedf54252a4bcbbe"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>assigned_to</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>5c3721221b1c3c10aedf54252a4bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a3b5c1981bd81010affd0e55cc4bcb78</table>
+        <value>{{pd.inputRecord.assigned_to}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>assigned_to_new_record</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>143721221b1c3c10aedf54252a4bcb64</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:45:54</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a3b5c1981bd81010affd0e55cc4bcb78</table>
+        <value>{{pd.inputRecord.assigned_to}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>assignment_group</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>d83721221b1c3c10aedf54252a4bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a3b5c1981bd81010affd0e55cc4bcb78</table>
+        <value>{{pd.inputRecord.assignment_group}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_record</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>9c3721221b1c3c10aedf54252a4bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Create Task Activity./end.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_table</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>903721221b1c3c10aedf54252a4bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Create Task Activity./end.table}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachments_read_only</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>d43721221b1c3c10aedf54252a4bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachment_source</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>1c3721221b1c3c10aedf54252a4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>description</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>143721221b1c3c10aedf54252a4bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{act.d837adae1bd83c10aedf54252a4bcbbe.description}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_record</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>543721221b1c3c10aedf54252a4bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Create Task Activity.e17e6678-8e97-4584-a903-cfa6e47fd378./end.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_table</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>943721221b1c3c10aedf54252a4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fields</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>d43721221b1c3c10aedf54252a4bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a3b5c1981bd81010affd0e55cc4bcb78</table>
+        <value>parent={{pd.inputRecord}}^EQ</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fields_to_show_after_creation</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>503721221b1c3c10aedf54252a4bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a3b5c1981bd81010affd0e55cc4bcb78</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>footer</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>183721221b1c3c10aedf54252a4bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>form_fields</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>5c3721221b1c3c10aedf54252a4bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>form_view</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>543721221b1c3c10aedf54252a4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>icon</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>503721221b1c3c10aedf54252a4bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>is_automated</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>d83721221b1c3c10aedf54252a4bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Create Task Activity./end.automated}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>pending_description</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>dc3721221b1c3c10aedf54252a4bcb5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>pending_title</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>103721221b1c3c10aedf54252a4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_fields</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>dc3721221b1c3c10aedf54252a4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Create Task Activity./end.record_fields}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>short_description</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>543721221b1c3c10aedf54252a4bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a3b5c1981bd81010affd0e55cc4bcb78</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>show_checklist</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>903721221b1c3c10aedf54252a4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>show_sla</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>d03721221b1c3c10aedf54252a4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>983721221b1c3c10aedf54252a4bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a3b5c1981bd81010affd0e55cc4bcb78</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tagline</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>583721221b1c3c10aedf54252a4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>title</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>983721221b1c3c10aedf54252a4bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{act.d837adae1bd83c10aedf54252a4bcbbe.label}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>183721221b1c3c10aedf54252a4bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a3b5c1981bd81010affd0e55cc4bcb78</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait_for_task_completion</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>9c3721221b1c3c10aedf54252a4bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a3b5c1981bd81010affd0e55cc4bcb78</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_a3b5c1981bd81010affd0e55cc4bcb78^id=d837adae1bd83c10aedf54252a4bcbbe"/>
+    <sys_element_mapping action="delete_multiple" query="id=d837adae1bd83c10aedf54252a4bcbbe"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>assigned_to</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>5c3721221b1c3c10aedf54252a4bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a3b5c1981bd81010affd0e55cc4bcb78</table>
+        <value>{{pd.inputRecord.assigned_to}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>assigned_to_new_record</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>143721221b1c3c10aedf54252a4bcb64</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:45:54</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a3b5c1981bd81010affd0e55cc4bcb78</table>
+        <value>{{pd.inputRecord.assigned_to}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>assignment_group</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>d83721221b1c3c10aedf54252a4bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a3b5c1981bd81010affd0e55cc4bcb78</table>
+        <value>{{pd.inputRecord.assignment_group}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_record</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>9c3721221b1c3c10aedf54252a4bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Create Task Activity./end.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_table</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>903721221b1c3c10aedf54252a4bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Create Task Activity./end.table}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachments_read_only</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>d43721221b1c3c10aedf54252a4bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachment_source</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>1c3721221b1c3c10aedf54252a4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>description</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>143721221b1c3c10aedf54252a4bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{act.d837adae1bd83c10aedf54252a4bcbbe.description}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_record</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>543721221b1c3c10aedf54252a4bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Create Task Activity.e17e6678-8e97-4584-a903-cfa6e47fd378./end.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_table</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>943721221b1c3c10aedf54252a4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fields</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>d43721221b1c3c10aedf54252a4bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a3b5c1981bd81010affd0e55cc4bcb78</table>
+        <value>parent={{pd.inputRecord}}^EQ</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fields_to_show_after_creation</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>503721221b1c3c10aedf54252a4bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a3b5c1981bd81010affd0e55cc4bcb78</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>footer</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>183721221b1c3c10aedf54252a4bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>form_fields</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>5c3721221b1c3c10aedf54252a4bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>form_view</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>543721221b1c3c10aedf54252a4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>icon</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>503721221b1c3c10aedf54252a4bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>is_automated</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>d83721221b1c3c10aedf54252a4bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Create Task Activity./end.automated}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>pending_description</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>dc3721221b1c3c10aedf54252a4bcb5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>pending_title</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>103721221b1c3c10aedf54252a4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_fields</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>dc3721221b1c3c10aedf54252a4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Create Task Activity./end.record_fields}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>short_description</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>543721221b1c3c10aedf54252a4bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a3b5c1981bd81010affd0e55cc4bcb78</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>show_checklist</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>903721221b1c3c10aedf54252a4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>show_sla</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>d03721221b1c3c10aedf54252a4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>983721221b1c3c10aedf54252a4bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a3b5c1981bd81010affd0e55cc4bcb78</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tagline</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>583721221b1c3c10aedf54252a4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>title</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:16</sys_created_on>
+        <sys_id>983721221b1c3c10aedf54252a4bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:16</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{act.d837adae1bd83c10aedf54252a4bcbbe.label}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>183721221b1c3c10aedf54252a4bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a3b5c1981bd81010affd0e55cc4bcb78</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait_for_task_completion</field>
+        <id>d837adae1bd83c10aedf54252a4bcbbe</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:43:17</sys_created_on>
+        <sys_id>9c3721221b1c3c10aedf54252a4bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:43:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a3b5c1981bd81010affd0e55cc4bcb78</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Instruction">b0c35e2b1b630010affd0e55cc4bcbca</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description>Review Patient Details and Gaps</description>
+        <inputs/>
+        <label>Review</label>
+        <lane display_value="Initiation">0466adae1bd83c10aedf54252a4bcbe5</lane>
+        <name>instruction</name>
+        <order>2</order>
+        <outputs/>
+        <process_definition display_value="Diabetes Management">9b36a9ae1bd83c10aedf54252a4bcbf5</process_definition>
+        <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:40:23</sys_created_on>
+        <sys_id>c686edae1bd83c10aedf54252a4bcb45</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:46:14</sys_updated_on>
+        <type_vals/>
+        <type_vals/>
+    </sys_pd_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=c686edae1bd83c10aedf54252a4bcb45"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>c686edae1bd83c10aedf54252a4bcb45</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:40:24</sys_created_on>
+        <sys_id>028661ee1bd83c10aedf54252a4bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:40:24</sys_updated_on>
+        <value>&lt;p&gt;{{vl.Simple Instruction./start.message}}&lt;/p&gt;</value>
+        <variable display_value="Description">267e68875b00001070e4492c11f91a34</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>c686edae1bd83c10aedf54252a4bcb45</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:40:24</sys_created_on>
+        <sys_id>068661ee1bd83c10aedf54252a4bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:40:24</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Is Automated">ec5d96eac7e60010bfbaf89f51c2605d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>c686edae1bd83c10aedf54252a4bcb45</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:40:24</sys_created_on>
+        <sys_id>428661ee1bd83c10aedf54252a4bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:40:24</sys_updated_on>
+        <value/>
+        <variable display_value="Footer">8793d6feb70100101a6ddb91de11a98f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>c686edae1bd83c10aedf54252a4bcb45</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:40:24</sys_created_on>
+        <sys_id>4e8661ee1bd83c10aedf54252a4bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:40:24</sys_updated_on>
+        <value>circle_info_outline</value>
+        <variable display_value="Icon">24bdf44673030010fe4a6da44cf6a707</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>c686edae1bd83c10aedf54252a4bcb45</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:40:24</sys_created_on>
+        <sys_id>828661ee1bd83c10aedf54252a4bcb97</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:42:48</sys_updated_on>
+        <value>Please Review Patient Details and Gaps</value>
+        <variable display_value="Message">6c9c4ee31b630010affd0e55cc4bcbbf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>c686edae1bd83c10aedf54252a4bcb45</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:40:24</sys_created_on>
+        <sys_id>868661ee1bd83c10aedf54252a4bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:40:24</sys_updated_on>
+        <value>{{act.c686edae1bd83c10aedf54252a4bcb45.label}}</value>
+        <variable display_value="Title">49ed24875b00001070e4492c11f91aa5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>c686edae1bd83c10aedf54252a4bcb45</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:40:24</sys_created_on>
+        <sys_id>8a8661ee1bd83c10aedf54252a4bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:40:24</sys_updated_on>
+        <value>sys_flow_data</value>
+        <variable display_value="Experience Status Table">9c6b7e22c3211010381b60bc0eba8f98</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>c686edae1bd83c10aedf54252a4bcb45</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:40:24</sys_created_on>
+        <sys_id>8e8661ee1bd83c10aedf54252a4bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:40:24</sys_updated_on>
+        <value/>
+        <variable display_value="Experience Status Record">55628762c3211010381b60bc0eba8fec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>c686edae1bd83c10aedf54252a4bcb45</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:40:24</sys_created_on>
+        <sys_id>c28661ee1bd83c10aedf54252a4bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:40:24</sys_updated_on>
+        <value>Instructional</value>
+        <variable display_value="Tagline">661d304673030010fe4a6da44cf6a7b1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>c686edae1bd83c10aedf54252a4bcb45</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:40:24</sys_created_on>
+        <sys_id>c68661ee1bd83c10aedf54252a4bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:40:24</sys_updated_on>
+        <value/>
+        <variable display_value="Associated Record">eb0474b8c763001085f5532bb4c260f5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>c686edae1bd83c10aedf54252a4bcb45</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:40:24</sys_created_on>
+        <sys_id>ca8661ee1bd83c10aedf54252a4bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:40:24</sys_updated_on>
+        <value>sys_flow_data</value>
+        <variable display_value="Associated Table">78f334b8c763001085f5532bb4c26009</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>c686edae1bd83c10aedf54252a4bcb45</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:40:24</sys_created_on>
+        <sys_id>ce8661ee1bd83c10aedf54252a4bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:40:24</sys_updated_on>
+        <value>yes</value>
+        <variable display_value="Wait for user input">c23322e91bbb001094630f28cc4bcbae</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_2b8b42e31b630010affd0e55cc4bcbe9^id=c686edae1bd83c10aedf54252a4bcb45"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_2b8b42e31b630010affd0e55cc4bcbe9^id=c686edae1bd83c10aedf54252a4bcb45"/>
+    <sys_element_mapping action="delete_multiple" query="id=c686edae1bd83c10aedf54252a4bcb45"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_record</field>
+        <id>c686edae1bd83c10aedf54252a4bcb45</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:40:24</sys_created_on>
+        <sys_id>8a8661ee1bd83c10aedf54252a4bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:40:24</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{vl.Simple Instruction.e17e6678-8e97-4584-a903-cfa6e47fd378./end.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_table</field>
+        <id>c686edae1bd83c10aedf54252a4bcb45</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:40:24</sys_created_on>
+        <sys_id>0a8661ee1bd83c10aedf54252a4bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:40:24</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>description</field>
+        <id>c686edae1bd83c10aedf54252a4bcb45</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:40:24</sys_created_on>
+        <sys_id>c28661ee1bd83c10aedf54252a4bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:40:24</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{vl.Simple Instruction./start.message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_record</field>
+        <id>c686edae1bd83c10aedf54252a4bcb45</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:40:24</sys_created_on>
+        <sys_id>428661ee1bd83c10aedf54252a4bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:40:24</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{vl.Simple Instruction.e17e6678-8e97-4584-a903-cfa6e47fd378./end.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_table</field>
+        <id>c686edae1bd83c10aedf54252a4bcb45</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:40:24</sys_created_on>
+        <sys_id>4e8661ee1bd83c10aedf54252a4bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:40:24</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>footer</field>
+        <id>c686edae1bd83c10aedf54252a4bcb45</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:40:24</sys_created_on>
+        <sys_id>068661ee1bd83c10aedf54252a4bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:40:24</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>icon</field>
+        <id>c686edae1bd83c10aedf54252a4bcb45</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:40:24</sys_created_on>
+        <sys_id>028661ee1bd83c10aedf54252a4bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:40:24</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>is_automated</field>
+        <id>c686edae1bd83c10aedf54252a4bcb45</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:40:24</sys_created_on>
+        <sys_id>c68661ee1bd83c10aedf54252a4bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:40:24</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{vl.Simple Instruction./start.automated}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>message</field>
+        <id>c686edae1bd83c10aedf54252a4bcb45</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:40:24</sys_created_on>
+        <sys_id>8a8661ee1bd83c10aedf54252a4bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:40:24</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_2b8b42e31b630010affd0e55cc4bcbe9</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tagline</field>
+        <id>c686edae1bd83c10aedf54252a4bcb45</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:40:24</sys_created_on>
+        <sys_id>868661ee1bd83c10aedf54252a4bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:40:24</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>title</field>
+        <id>c686edae1bd83c10aedf54252a4bcb45</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:40:24</sys_created_on>
+        <sys_id>4a8661ee1bd83c10aedf54252a4bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:40:24</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{act.c686edae1bd83c10aedf54252a4bcb45.label}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait</field>
+        <id>c686edae1bd83c10aedf54252a4bcb45</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:40:24</sys_created_on>
+        <sys_id>4e8661ee1bd83c10aedf54252a4bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:40:24</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_2b8b42e31b630010affd0e55cc4bcbe9</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_pd_swim_lane action="delete_multiple" query="process_definition=9b36a9ae1bd83c10aedf54252a4bcbf5"/>
+    <sys_pd_activity_m2m_app_object action="delete_multiple" query="activity.process_definition=9b36a9ae1bd83c10aedf54252a4bcbf5"/>
+    <sys_pd_snapshot action="delete_multiple" query="sys_id=9a2296ea1bdc3c10aedf54252a4bcb73^sys_idNOT IN9a2296ea1bdc3c10aedf54252a4bcb73"/>
+    <sys_pd_snapshot action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <derivatives>{"table":"sys_pd_snapshot","id":"9a2296ea1bdc3c10aedf54252a4bcb73","name":"derivatives","type":"com.snc.pd.model.serialization.DerivativeFetcher"}</derivatives>
+        <name>diabetes_management</name>
+        <process_definition>{"table":"sys_pd_snapshot","id":"9a2296ea1bdc3c10aedf54252a4bcb73","name":"process_definition","type":"com.snc.pd.model.ProcessDefinition"}</process_definition>
+        <process_plan/>
+        <source display_value="Diabetes Management">9b36a9ae1bd83c10aedf54252a4bcbf5</source>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 14:51:01</sys_created_on>
+        <sys_id>9a2296ea1bdc3c10aedf54252a4bcb73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 14:51:01</sys_updated_on>
+    </sys_pd_snapshot>
+    <sys_json_chunk action="delete_multiple" query="document_id=9a2296ea1bdc3c10aedf54252a4bcb73^sys_idNOT IN5e2296ea1bdc3c10aedf54252a4bcb73,da2296ea1bdc3c10aedf54252a4bcb73"/>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAN1abW8bxxH+KwL71cvs+4uBAkmbpAjQxM6LUxRFe5jdnbUOOfEI3lG2YOi/d5akZEoiJYqR4sAfRIH3tjPPzjzzzBw/TDBIaSyC0TmpJLjVToksU85F8gj2L5OXHyal7UZcTF5OJi8m7YyOXL6YjOfr/xkLnfjh1avXdBLfY6o3IPxyMUc6/n2ffqPjXZ+gGyYvZ8uuu6SbkvUWM6CI2ddVAXMxWhoJOqaoze5VJ++gHev/L1MHAz1u8t3sV+jo9Jdtpm8xFrAeJfMhW6ZT8Qy4FCxj5kUHnz0AXXwO3bLadoEDfcvtMO/g4tfNwX+vDo54RgdHXC9+CsPm9LhYYjVmvhzfDEhrFnKLjgwtXY8bn1+9/urHN9+sF/rl+kHVdQJosegX3+MwwNvrYwssuMBZopVf/ue/hM7Z1fm9nqZoItIHg+CQac8Li5I+fJTFaZNzALHl6esOYcCTn/C8xXcnr2FscTaefI0jtN1wArN88g+Y7wDj4Ps+JV5XsTghoPrU0s25GSF2N/FL/dl0mKXpfNHTjUNTuv7dlBacvlqO28jKHJ0yiTNIKTPtnGeeZwJaYCoJQkAdtpAdLtaPajKMcBfA26dvI7MLh8uaRnNctNXFZhhhXA7NAlO/yLs9ytN523XT1/Txzfv54toVJbjL3AALvroiI2cRZWIaeKbgkQWLX+XsvCbZhw/n3fTnlT0n380Gsi+NbT+bonBobYUBg2PaeE1BxxVLlGuoXcnK+ekXOMvTtY2Xl9WD0ver3D1iB5zl6J3NDEFFptEQ+MlERrtiQlYh82A/7sA6JG7Cvj72Eet7go5MbYcGlmN/VgPncQCbaGNSRbOsZKFYsZ4FlRwjzLnhmJzx8WGAv6AtXozTaxvWALapnx0FX/YEkLbAcpKc6SI47b+MzBEvaM0DsW3cCuDULlKHTTsrfdMvx66d4d0w3n3R0cF8fHYasDFzlZisNE+BTMGdlGUBgCg/ZlsyPHt2bvHMMWlZvHYAxbLkDUUNlMhAh8RssSnRH7ponistR3i72rxjsBchOkHGM5mB8rIW1uiTZsZKNOBy8V5uYb9l7Ooht7C/ffpA7DMOadHO622PQ10LRZHjEnOFUNIlC+YBLctZZSO01SQRDs7VTYHeYNqO+6J5nzGZCJiUTmaFJzJGGc1C1p5J2kcTeBLB3WBmSOP0Ick07SBiV026FmWRnm5QRhGt4pxuKSVz4tOU6i0Jdgm2b7/ekmukwfLPqZ9j/gHO6tm3XR8pMtabQ3xwjQzdVMVZU/pFQ+7T2fUWTepu0smSN8//+c3fvv3nq3+RldVMrxzs9SniHhk4nPaLsdkXCjeVEte+hJQLQ2dIKWlFIikQO0aQTilpQBe1HbWZFE5bLk76+ZwWWc5a0jzDydifQM4nAy7O27T+PqRTzMsO88l5O7TjDvX0u571aRXoA0KbMiZSwgNTMRAVKCS5ZKhYC5+FIGZSppQtUGf9XXB+6D+5k+RZ+3Z2RpvUvF30y/k9DlMhV8oLYCaDoUovHIuK5DcvhnsbSAPEraK6X5Psc3jj33N6/Bh+ktITcbjISiQ5owPp3wDeMyfJa+0Q0IhtfqIHrUz/aVVqpreBraR0FVUrhhhh+O0GTexPX2roZCBLfPJU8K0NVPBRsyoDtCXd5bL+CPwGtFuhxj95pJUWu0y6p2+Iut41UIjQmrRAeMD7oiz47Cwj7qI6Qe4zgp/2QUtBIlPnUvR2ni3PIi5e3KHHF1V37ZB1D17/Z8jP2s31zQzf7RJbN+EKMXpDUVGLOikrbihYDKeS74PLKSNGHj6jLMVijBRWMpBV0hjSwVCIilURFDY+WQzywSxdwXuVoOs4vY8HJTWUgbrjAJX4gdjBO+UZctIYSQVlNf+MENaatLqQlHUgiH14MMzHjIzLbJUhSjK4JdXnQIuMf70N9OXl/775cY3v3cbn1gCLlBC1Z8AsKRMSqZAIXqo1CnXCgK4EgVv5/r4h65vVtybCgA1vThG68bQ5gxn5v2LgVE9Uwr2b/4++/0/DB/dhWFQQirpD0o/U/4riWNCkTVDbKLJDBStt/bmEKEgdOGJiUVAvplMmZYIUN4JbaxLKRAL7MSRwPU2bU+/Yzt7uldkHD9RSEYY6L5atqJShE1XwWIdSPHHjqS1L7inHOYdNAffByRWACdKzmDVlvKFiS9+pOfcuSxm05MHdahP/Xus4nvxCKXLyFTVD5+14se68V+uvm8SnmeglSZUMtGAFsyfrapQnhwxjSSUqnZxIh1j3h8/0PBrCThsynAums6W6wX1kPIdYXIqKq4Mq8/PP9LiXhbjdMQex0ocnyq/6MyaKYTSawuDwAHiqmZ7KFIORtK9UjuAzESndBWeUP8Vp2koM20Pp3Kflirv3DvR2XPHHDL9U9qRio2M21QjmMRMRZE6O8aJcdELJ22OY/fBuB+fRgyFHojCnJFgWuYrGYJmndo45F6SV0SpnbhBoncU8NLeYblmzNg/GEdJphbxmPuSmn3UXx/GpB5IBnMCL9dUPpXzVCIWVgN5FmzHH7d6b3918fvhuHzHb8gILkahgKHOgWNW+vkohaYoWKe9RK3w8ntezrcpCi7Nmh1A9OJekpShTyCDTVpPCIyqiPpJJSFYE5RO3B+mDQ6noqo7eA+VDQ2+VQjCyMJ4CZT9SK+iVL4QoB6eouOpVib/a8e18WVf5uyGw85oDY2LVwg4dHOULpBi4TYYKqqmVRykGqiCzkIrxjitu8cmi9ynfPBRdOOWtYqYAGV4kMG8NZ8IIrrKifihtvZV6pjcPv2d8z62QvDYvKhoSigFJggmeWbSxIJEd9XFhdxTdGz6PjJt0ium3rh3Go3zQFDBCKuroQ6DibBP1vs4KkmjCSJvQJkhPFj0fKbsZ+uUiHQe71zlm0j4ULZpXyeaIeFSV6945XL2SOGhyeCjdrGvivQS5t5UgSZFqK6ExAZUX6pxAkRR2KIHKoiONqR5Zmzd2bDF3/SXBUUBaI0Wgzo45b6mPKEWy4EhRCtA6WCykzJ9QQn58h2J1StoHTgvUdyjFxGIAQ9KOillKR79DWY3/1p11AxvojnuLYq9+wqPWP+GBQnbqKJwqNpTn+gkPCFkLNIiwXlVaoWU2nheuVXH8eVa1m1UVrFctmKiRdFIhJyJ4rlVhg7CM61UFN9IlUgyBJ2mfC2Hc+Iqbn2apUqgrJQ0lowB4Hl8v/w8MxyrbEiYAAA==</data>
+        <document_id>9a2296ea1bdc3c10aedf54252a4bcb73</document_id>
+        <field>derivatives</field>
+        <length>3240</length>
+        <position>0</position>
+        <source_table>sys_pd_snapshot</source_table>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 14:51:01</sys_created_on>
+        <sys_id>5e2296ea1bdc3c10aedf54252a4bcb73</sys_id>
+    </sys_json_chunk>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAANVWTY+bMBD9K8jqcQ82HwZyXqnaQ9Vqt7dqFY3tcWuVAAInVbTKf6/5yMcWKGy6UpUjM/D8eG88My/EKLIiqQg4pIBMqCSQjAIqHYV+5EMopNARuSM5bNC9qQwItFivN5DDd9xgbl0yc8HMZe/7rPfpdTbHmqy+vXSH0ZBzUFOH4cVhJjfWgDVF7mK1hcqSVQ/Cmd98AQEo2YBolGlCYz9AGnMW0zGQDx3Eme5ISmEtK1O2Z67ybZZ19JfRLiqF1fGzFnFdbTMcRtZ2X46Fd1DVx7AscmUaHmtbuOyJjsISc4W5NK2oz02kMjv3G7teZW0y2/AgjhJIFzd2v0Syw3NP5h4z2H9uRXCIL4c7cubrHtzxJx+gB2VpB+pzFvoqSqimYaAnfGgARl3oEjfnwZJqlDzhOEk9jMhyI2c1X2pkha8vFfbAGHbAgdZChYrHvmAAE2YeQUYNPSdvztTlfszKttSPo4APl32vXNigL2UhZrNB16otnpmayx48W40XTte22sqezJHhI+4M/vrT1j7sfXHcXev37tGCyWoPcuV9hLImV3ju/+XPBr4T1AmIRFII3F0QEgVjsc8DHbGQMtpW8OKqIOSKi768amYtmK0aVycnbyBr3x/W8ATCnApfi8fjzTjc9UUjnGnTjAN5Lppa/kDV+DUY26nTjyNEQacfaGdLKFgcaJ5q4EOIwdAeJKY7ywLC/2VczDbwNwz1OUGvGuo9qC86UEYjP5Y+yJRKn4+69Hqk/xG+PYccm3i6P4mmsGeVf8NAn9P76oF+5NhPJh7GAVO+VEr7VIwaORznI6nbM/Qdr9ysqG8d90/nbnnVsAftaK7Lyg3fYltPTPwFFd2XgqzQjde1hfonGZI8DfcnrHZGYj1YAh6c7NbovVeUZVHZbd4y8WzhgVJe3X/WPB8rS3k7Uxt7sR8sLyM2J8bIkiDSRIRpFAmIQ5Ag0jgB7S6aoom7vOyfl4T36wyzrs0vCY8onVRj28H8FvY++0ODIouWTJjyNNJxygSVOmFURrG7gj7lzbYmooQcfgM6f4N0khAAAA==</data>
+        <document_id>9a2296ea1bdc3c10aedf54252a4bcb73</document_id>
+        <field>process_definition</field>
+        <length>1072</length>
+        <position>0</position>
+        <source_table>sys_pd_snapshot</source_table>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 14:51:01</sys_created_on>
+        <sys_id>da2296ea1bdc3c10aedf54252a4bcb73</sys_id>
+    </sys_json_chunk>
+    <sys_pd_snapshot_chunk action="delete_multiple" query="document_id=9a2296ea1bdc3c10aedf54252a4bcb73"/>
+    <sys_pd_trigger_instance action="delete_multiple" query="sys_id=2b3665ae1bd83c10aedf54252a4bcb60^sys_idNOT IN2b3665ae1bd83c10aedf54252a4bcb60"/>
+    <sys_pd_trigger_instance action="INSERT_OR_UPDATE">
+        <label/>
+        <name/>
+        <process_definition display_value="Diabetes Management">9b36a9ae1bd83c10aedf54252a4bcbf5</process_definition>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:39:07</sys_created_on>
+        <sys_id>2b3665ae1bd83c10aedf54252a4bcb60</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:39:36</sys_updated_on>
+        <trigger_definition/>
+        <trigger_inputs/>
+        <trigger_type display_value="Record Create">ab6951170f1200108c87f4f0ff767e4f</trigger_type>
+    </sys_pd_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2b3665ae1bd83c10aedf54252a4bcb60"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_trigger_instance</document>
+        <document_key>2b3665ae1bd83c10aedf54252a4bcb60</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:39:36</sys_created_on>
+        <sys_id>1656a5ae1bd83c10aedf54252a4bcbff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:39:36</sys_updated_on>
+        <value>x_snc_value_base_0_health_management_case</value>
+        <variable display_value="Table">a8ae38d1ff2200108c8733af793bf15c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_trigger_instance</document>
+        <document_key>2b3665ae1bd83c10aedf54252a4bcb60</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 11:39:36</sys_created_on>
+        <sys_id>9a56a5ae1bd83c10aedf54252a4bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 11:39:36</sys_updated_on>
+        <value>case_type=diabetes_management</value>
+        <variable display_value="Condition">2a8a7851ff2200108c8733af793bf131</variable>
+    </sys_variable_value>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=2b3665ae1bd83c10aedf54252a4bcb60^sys_idNOT INda2296ea1bdc3c10aedf54252a4bcb72"/>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"da2296ea1bdc3c10aedf54252a4bcb72","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>2b3665ae1bd83c10aedf54252a4bcb60</identifier>
+        <runner>PDTriggerRunner</runner>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 14:51:00</sys_created_on>
+        <sys_id>da2296ea1bdc3c10aedf54252a4bcb72</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 14:51:01</sys_updated_on>
+        <trigger display_value="">522296ea1bdc3c10aedf54252a4bcb72</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="delete_multiple" query="document_id=da2296ea1bdc3c10aedf54252a4bcb72^sys_idNOT IN522296ea1bdc3c10aedf54252a4bcb73"/>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAKtWKirNiy8pykxPTy1SslLKL0rXy82vyszJSdTLSixLLE4uyiwo0QvNyywsTQ1JTHcwM0pNTUu0UvDzD4l38w/1c1GqBQCkByyIRAAAAA==</data>
+        <document_id>da2296ea1bdc3c10aedf54252a4bcb72</document_id>
+        <field>trigger_runner</field>
+        <length>120</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 14:51:00</sys_created_on>
+        <sys_id>522296ea1bdc3c10aedf54252a4bcb73</sys_id>
+    </sys_json_chunk>
+    <sys_flow_record_trigger action="delete_multiple" query="sys_id=522296ea1bdc3c10aedf54252a4bcb72^sys_idNOT IN522296ea1bdc3c10aedf54252a4bcb72"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_value_base_0_health_management_case">case_type=diabetes_management<item display_value="Diabetes Management" endquery="false" field="case_type" goto="false" newquery="false" operator="=" or="false" value="diabetes_management"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-26 14:51:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>522296ea1bdc3c10aedf54252a4bcb72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-26 14:51:00</sys_updated_on>
+        <table>x_snc_value_base_0_health_management_case</table>
+    </sys_flow_record_trigger>
+</record_update>

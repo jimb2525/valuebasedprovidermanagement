@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="053f64de1b90f810aedf54252a4bcb3c" extends="task" label="Focus Panel Assessment" max_length="40" name="x_snc_value_base_0_focus_panel_assessment" type="collection">
+        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element label="Blood Pressure Control" max_length="40" name="blood_pressure_control" type="string"/>
+        <element label="Date of Most Recent Eye Exam" max_length="40" name="date_of_most_recent_eye_exam" type="string"/>
+        <element label="Date of Most Recent Lab" max_length="40" name="date_of_most_recent_lab" type="string"/>
+        <element label="90 Day Range for Glucose Monitoring" max_length="40" name="day_range_for_glucose_monitoring" type="string"/>
+        <element label="ED Visits in last 12 Months" max_length="40" name="ed_visits_in_last_12_months" type="integer"/>
+        <element label="Eye Exam Completed" max_length="40" name="eye_exam_completed" type="string"/>
+        <element label="Inpatient Admissions in Last 12 Months" max_length="40" name="inpatient_admissions_in_last_12_months" type="integer"/>
+        <element label="Last PCP Visit" max_length="40" name="last_pcp_visit" type="string"/>
+        <element label="Medical Attention for Nephropathy" max_length="40" name="medical_attention_for_nephropathy" type="string"/>
+        <element label="Most Recent A1C" max_length="40" name="most_recent_a1c" type="float"/>
+        <element label="Number of Outreach Attempts" max_length="40" name="number_of_outreach_attempts" type="integer"/>
+        <element label="Patient" max_length="32" name="patient" reference="x_snc_value_base_0_patient" type="reference"/>
+        <element label="Risk of Diabetes Complications" max_length="40" name="risk_of_diabetes_complications" type="string"/>
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Unengaged with no Appointment Scheduled" sequence="10" value="unengaged_with_no_appointment_scheduled"/>
+                <element inactive_on_update="false" label="Unengaged with Appointment Scheduled" sequence="20" value="unengaged_with_appointment_scheduled"/>
+                <element inactive_on_update="false" label="Engaged with Poor Control" sequence="30" value="engaged_with_poor_control"/>
+            </choice>
+        </element>
+    </element>
+</database>

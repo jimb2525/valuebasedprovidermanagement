@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="VBPM Office Medical Assistant Workspace Config">9d1bac36818cfc10049dd055e7ad2b68</app_config>
+        <description/>
+        <extension_point/>
+        <fields>table</fields>
+        <icon/>
+        <name>Simple List</name>
+        <optional_parameters>listTitle,query,disableInlineEditing</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>simplelist</route_type>
+        <screen_type display_value="Simple List">9d1bac363a8cfc10f4e779356cf0d169</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-14 15:43:27</sys_created_on>
+        <sys_id>dd1bac364d8cfc10d9e8658fb49e4a69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Simple List</sys_name>
+        <sys_package display_value="Value Based Provider Management" source="x_snc_value_base_0">49695f791b0cf810c5780f20604bcb58</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Value Based Provider Management">49695f791b0cf810c5780f20604bcb58</sys_scope>
+        <sys_update_name>sys_ux_app_route_dd1bac364d8cfc10d9e8658fb49e4a69</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-14 15:43:27</sys_updated_on>
+    </sys_ux_app_route>
+</record_update>

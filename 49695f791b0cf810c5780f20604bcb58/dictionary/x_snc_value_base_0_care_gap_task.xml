@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="2f2d7e041b55f010fc7d0f6cdc4bcbb8" extends="task" label="Care Gap Task" max_length="40" name="x_snc_value_base_0_care_gap_task" type="collection">
+        <element label="Care Gap" max_length="32" name="care_gap" reference="x_snc_value_base_0_care_gaps" type="reference"/>
+    </element>
+</database>

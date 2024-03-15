@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4288d03e1b0cfc10c5780f20604bcb8e" label="Lab Results" max_length="40" name="x_snc_value_base_0_lab_results" type="collection">
+        <element label="Date of Service" max_length="40" name="date_of_service" type="glide_date"/>
+        <element choice="3" label="Lab" max_length="40" name="lab" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Quest Diagnostics" sequence="10" value="quest_diagnostics"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Patient" max_length="32" name="patient" reference="x_snc_value_base_0_patient" type="reference"/>
+        <element label="Result" max_length="10" name="result" type="string"/>
+        <element choice="3" label="Test" max_length="40" name="test" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="HbA1C" sequence="10" value="hba1c"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="patient"/>
+        </index>
+    </element>
+</database>

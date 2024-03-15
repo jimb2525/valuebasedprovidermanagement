@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b4441cb61b0cfc10c5780f20604bcb6d" label="PCP Visits" max_length="40" name="x_snc_value_base_0_pcp_visits" type="collection">
+        <element label="Last Visit" max_length="40" name="last_visit" type="glide_date"/>
+        <element label="Next Visit" max_length="40" name="next_visit" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Patient" max_length="32" name="patient" reference="x_snc_value_base_0_patient" type="reference"/>
+        <element label="PCP" max_length="32" name="pcp" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="patient"/>
+        </index>
+        <index name="index2">
+            <element name="pcp"/>
+        </index>
+    </element>
+</database>

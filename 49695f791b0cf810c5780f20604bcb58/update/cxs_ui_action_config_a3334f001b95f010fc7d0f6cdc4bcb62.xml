@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cxs_ui_action_config">
+    <cxs_ui_action_config action="INSERT_OR_UPDATE">
+        <action_condition/>
+        <action_label>Full View</action_label>
+        <action_undo_label/>
+        <action_value>Full View</action_value>
+        <active>true</active>
+        <advanced_visibility>false</advanced_visibility>
+        <attach_note_field>comments</attach_note_field>
+        <attachment_type/>
+        <badge_label/>
+        <current_action_condition/>
+        <current_table/>
+        <order>300</order>
+        <rest_api/>
+        <search_res_config display_value="Similar Articles (ML)">fdec362adb5723003cb9fa56bf961939</search_res_config>
+        <search_resource display_value="">com.snc.contextual_search.search_resource.ScriptSearchResource</search_resource>
+        <search_ui_action display_value="Full View">8637d48bc3730300e2fd5cb981d3aea5</search_ui_action>
+        <search_ui_config display_value="Helping Hand [x_snc_value_base_0_care_gaps]">b5f247001b95f010fc7d0f6cdc4bcb5e</search_ui_config>
+        <show_on_new>true</show_on_new>
+        <sys_class_name>cxs_ui_action_config</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-07 17:03:26</sys_created_on>
+        <sys_id>a3334f001b95f010fc7d0f6cdc4bcb62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Full View</sys_name>
+        <sys_package display_value="Value Based Provider Management" source="x_snc_value_base_0">49695f791b0cf810c5780f20604bcb58</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Value Based Provider Management">49695f791b0cf810c5780f20604bcb58</sys_scope>
+        <sys_update_name>cxs_ui_action_config_a3334f001b95f010fc7d0f6cdc4bcb62</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-07 17:03:26</sys_updated_on>
+        <table/>
+        <trend_recommendation/>
+        <ui_action_visibility_script/>
+        <use_custom_field_for_attach>false</use_custom_field_for_attach>
+    </cxs_ui_action_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=a3334f001b95f010fc7d0f6cdc4bcb62"/>
+</record_update>

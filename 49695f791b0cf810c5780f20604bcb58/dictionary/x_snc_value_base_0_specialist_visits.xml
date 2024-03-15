@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ee59547e1b0cfc10c5780f20604bcb53" label="Specialist Visits" max_length="40" name="x_snc_value_base_0_specialist_visits" type="collection">
+        <element label="Date of Service" max_length="40" name="date_of_service" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Patient" max_length="32" name="patient" reference="x_snc_value_base_0_patient" type="reference"/>
+        <element label="Place of Service" max_length="40" name="place_of_service" type="string"/>
+        <element choice="3" label="Principal Diagnosis" max_length="40" name="principal_diagnosis" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Type 2 Diabetes" sequence="10" value="type_2_diabetes"/>
+                <element inactive_on_update="false" label="Hypertension" sequence="20" value="hypertension"/>
+            </choice>
+        </element>
+        <element label="Servicing Provider" max_length="32" name="servicing_provider" reference="sys_user" type="reference"/>
+        <element choice="3" label="Specialist Type" max_length="40" name="specialist_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Endocrinology" sequence="10" value="endocrinology"/>
+                <element inactive_on_update="false" label="Cardiology" sequence="20" value="cardiology"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="patient"/>
+        </index>
+        <index name="index2">
+            <element name="servicing_provider"/>
+        </index>
+    </element>
+</database>

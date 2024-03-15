@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="0d0dd5b71b0d3010fc7d0f6cdc4bcb09" sys_domain="global" table="x_snc_value_base_0_provider_coaching_session" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-07-06 14:59:11</sys_created_on>
+            <sys_id>393d553b1b0d3010fc7d0f6cdc4bcbc3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_provider_coaching_session" sys_domain="global" view="Default view">0d0dd5b71b0d3010fc7d0f6cdc4bcb09</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-07-06 14:59:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>1</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-07-06 14:59:11</sys_created_on>
+            <sys_id>bd3d553b1b0d3010fc7d0f6cdc4bcbc3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_provider_coaching_session" sys_domain="global" view="Default view">0d0dd5b71b0d3010fc7d0f6cdc4bcb09</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-07-06 14:59:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>patient</element>
+            <position>2</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-07-06 14:59:11</sys_created_on>
+            <sys_id>b13d553b1b0d3010fc7d0f6cdc4bcbdd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_provider_coaching_session" sys_domain="global" view="Default view">0d0dd5b71b0d3010fc7d0f6cdc4bcb09</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-07-06 14:59:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>provider</element>
+            <position>3</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-07-06 14:59:11</sys_created_on>
+            <sys_id>393d553b1b0d3010fc7d0f6cdc4bcbdd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_provider_coaching_session" sys_domain="global" view="Default view">0d0dd5b71b0d3010fc7d0f6cdc4bcb09</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-07-06 14:59:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>session_date</element>
+            <position>4</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-07-06 14:59:11</sys_created_on>
+            <sys_id>bd3d553b1b0d3010fc7d0f6cdc4bcbdd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_provider_coaching_session" sys_domain="global" view="Default view">0d0dd5b71b0d3010fc7d0f6cdc4bcb09</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-07-06 14:59:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-07-06 14:59:11</sys_created_on>
+            <sys_id>353d553b1b0d3010fc7d0f6cdc4bcbde</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_provider_coaching_session" sys_domain="global" view="Default view">0d0dd5b71b0d3010fc7d0f6cdc4bcb09</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-07-06 14:59:11</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>6</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-07-06 14:59:11</sys_created_on>
+            <sys_id>b93d553b1b0d3010fc7d0f6cdc4bcbde</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_provider_coaching_session" sys_domain="global" view="Default view">0d0dd5b71b0d3010fc7d0f6cdc4bcb09</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-07-06 14:59:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>7</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-07-06 14:59:11</sys_created_on>
+            <sys_id>313d553b1b0d3010fc7d0f6cdc4bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_provider_coaching_session" sys_domain="global" view="Default view">0d0dd5b71b0d3010fc7d0f6cdc4bcb09</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-07-06 14:59:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>8</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-07-06 14:59:11</sys_created_on>
+            <sys_id>b53d553b1b0d3010fc7d0f6cdc4bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_provider_coaching_session" sys_domain="global" view="Default view">0d0dd5b71b0d3010fc7d0f6cdc4bcb09</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-07-06 14:59:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>9</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-07-06 14:59:11</sys_created_on>
+            <sys_id>3d3d553b1b0d3010fc7d0f6cdc4bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_provider_coaching_session" sys_domain="global" view="Default view">0d0dd5b71b0d3010fc7d0f6cdc4bcb09</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-07-06 14:59:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent</element>
+            <position>10</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-07-06 14:59:11</sys_created_on>
+            <sys_id>b13d553b1b0d3010fc7d0f6cdc4bcbe0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_provider_coaching_session" sys_domain="global" view="Default view">0d0dd5b71b0d3010fc7d0f6cdc4bcb09</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-07-06 14:59:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-07-06 14:59:11</sys_created_on>
+            <sys_id>393d553b1b0d3010fc7d0f6cdc4bcbe0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_provider_coaching_session" sys_domain="global" view="Default view">0d0dd5b71b0d3010fc7d0f6cdc4bcb09</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-07-06 14:59:11</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>12</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-07-06 14:59:11</sys_created_on>
+            <sys_id>bd3d553b1b0d3010fc7d0f6cdc4bcbe0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_provider_coaching_session" sys_domain="global" view="Default view">0d0dd5b71b0d3010fc7d0f6cdc4bcb09</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-07-06 14:59:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>13</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-07-06 14:59:11</sys_created_on>
+            <sys_id>353d553b1b0d3010fc7d0f6cdc4bcbe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_provider_coaching_session" sys_domain="global" view="Default view">0d0dd5b71b0d3010fc7d0f6cdc4bcb09</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-07-06 14:59:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>14</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-07-06 14:59:11</sys_created_on>
+            <sys_id>b93d553b1b0d3010fc7d0f6cdc4bcbe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_provider_coaching_session" sys_domain="global" view="Default view">0d0dd5b71b0d3010fc7d0f6cdc4bcb09</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-07-06 14:59:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_value_base_0_provider_coaching_session</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-07-06 14:58:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d0dd5b71b0d3010fc7d0f6cdc4bcb09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_value_base_0_provider_coaching_session</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Value Based Provider Management" source="x_snc_value_base_0">49695f791b0cf810c5780f20604bcb58</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Value Based Provider Management">49695f791b0cf810c5780f20604bcb58</sys_scope>
+            <sys_update_name>sys_ui_section_0d0dd5b71b0d3010fc7d0f6cdc4bcb09</sys_update_name>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-07-06 14:58:19</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

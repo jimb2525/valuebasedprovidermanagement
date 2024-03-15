@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="df65683e1b4cfc10c5780f20604bcb82" sys_domain="global" table="x_snc_value_base_0_medications" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:18:44</sys_created_on>
+            <sys_id>5f65a83e1b4cfc10c5780f20604bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_medications" sys_domain="global" view="390b6a3787162010518cebdd3fbb3529">df65683e1b4cfc10c5780f20604bcb82</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:18:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dosage</element>
+            <position>1</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:18:44</sys_created_on>
+            <sys_id>d365a83e1b4cfc10c5780f20604bcb12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_medications" sys_domain="global" view="390b6a3787162010518cebdd3fbb3529">df65683e1b4cfc10c5780f20604bcb82</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:18:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>medication</element>
+            <position>2</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:18:44</sys_created_on>
+            <sys_id>5b65a83e1b4cfc10c5780f20604bcb12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_medications" sys_domain="global" view="390b6a3787162010518cebdd3fbb3529">df65683e1b4cfc10c5780f20604bcb82</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:18:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>patient</element>
+            <position>3</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:18:44</sys_created_on>
+            <sys_id>df65a83e1b4cfc10c5780f20604bcb12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_medications" sys_domain="global" view="390b6a3787162010518cebdd3fbb3529">df65683e1b4cfc10c5780f20604bcb82</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:18:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>route</element>
+            <position>4</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:18:44</sys_created_on>
+            <sys_id>5765a83e1b4cfc10c5780f20604bcb13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_medications" sys_domain="global" view="390b6a3787162010518cebdd3fbb3529">df65683e1b4cfc10c5780f20604bcb82</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:18:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>frequency</element>
+            <position>5</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:18:44</sys_created_on>
+            <sys_id>db65a83e1b4cfc10c5780f20604bcb13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_medications" sys_domain="global" view="390b6a3787162010518cebdd3fbb3529">df65683e1b4cfc10c5780f20604bcb82</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:18:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:18:44</sys_created_on>
+            <sys_id>5365a83e1b4cfc10c5780f20604bcb14</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_medications" sys_domain="global" view="390b6a3787162010518cebdd3fbb3529">df65683e1b4cfc10c5780f20604bcb82</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:18:44</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>medication_type</element>
+            <position>7</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:18:44</sys_created_on>
+            <sys_id>d765a83e1b4cfc10c5780f20604bcb14</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_medications" sys_domain="global" view="390b6a3787162010518cebdd3fbb3529">df65683e1b4cfc10c5780f20604bcb82</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:18:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>prescriber</element>
+            <position>8</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:18:44</sys_created_on>
+            <sys_id>5f65a83e1b4cfc10c5780f20604bcb14</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_medications" sys_domain="global" view="390b6a3787162010518cebdd3fbb3529">df65683e1b4cfc10c5780f20604bcb82</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:18:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_source</element>
+            <position>9</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:18:44</sys_created_on>
+            <sys_id>d365a83e1b4cfc10c5780f20604bcb15</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_medications" sys_domain="global" view="390b6a3787162010518cebdd3fbb3529">df65683e1b4cfc10c5780f20604bcb82</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:18:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>10</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:18:44</sys_created_on>
+            <sys_id>5b65a83e1b4cfc10c5780f20604bcb15</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_medications" sys_domain="global" view="390b6a3787162010518cebdd3fbb3529">df65683e1b4cfc10c5780f20604bcb82</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:18:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>indication</element>
+            <position>11</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:18:44</sys_created_on>
+            <sys_id>df65a83e1b4cfc10c5780f20604bcb15</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_medications" sys_domain="global" view="390b6a3787162010518cebdd3fbb3529">df65683e1b4cfc10c5780f20604bcb82</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:18:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_value_base_0_medications</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:18:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df65683e1b4cfc10c5780f20604bcb82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_value_base_0_medications</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Value Based Provider Management" source="x_snc_value_base_0">49695f791b0cf810c5780f20604bcb58</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Value Based Provider Management">49695f791b0cf810c5780f20604bcb58</sys_scope>
+            <sys_update_name>sys_ui_section_df65683e1b4cfc10c5780f20604bcb82</sys_update_name>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:18:44</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">390b6a3787162010518cebdd3fbb3529</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

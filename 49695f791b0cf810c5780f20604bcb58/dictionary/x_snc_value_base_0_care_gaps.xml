@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="f83394761b0cfc10c5780f20604bcb3c" label="Care Gaps" max_length="40" name="x_snc_value_base_0_care_gaps" type="collection">
+        <element label="Care Gap" max_length="40" name="care_gap" type="string"/>
+        <element choice="1" label="Care Gap Type" max_length="40" name="care_gap_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Diabetes" sequence="10" value="diabetes"/>
+            </choice>
+        </element>
+        <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Patient" max_length="32" name="patient" reference="x_snc_value_base_0_patient" type="reference"/>
+        <element label="Short Description" max_length="40" name="short_description" type="string"/>
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="10" value="open"/>
+                <element inactive_on_update="false" label="Closed" sequence="20" value="closed"/>
+            </choice>
+        </element>
+        <element label="Work Notes" max_length="4000" name="work_notes" type="journal_input"/>
+        <index name="index">
+            <element name="patient"/>
+        </index>
+    </element>
+</database>

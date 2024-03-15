@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="VBPM Office Medical Assistant Workspace Config">33cd687a5e8cfc1071a58930c902a499</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Focus Panel Assessment">f14b64d61b90f810aedf54252a4bcb4f</macroponent>
+        <macroponent_config>{
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>Focus Panel Assessment default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Focus Panel Assessment">bd4b64d61b90f810aedf54252a4bcb4a</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-25 12:43:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c24bec5a1b90f810aedf54252a4bcbfa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Focus Panel Assessment default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Value Based Provider Management" source="x_snc_value_base_0">49695f791b0cf810c5780f20604bcb58</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Value Based Provider Management">49695f791b0cf810c5780f20604bcb58</sys_scope>
+        <sys_update_name>sys_ux_screen_c24bec5a1b90f810aedf54252a4bcbfa</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-25 16:00:05</sys_updated_on>
+    </sys_ux_screen>
+</record_update>

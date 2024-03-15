@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Update Care Gap">e625045c1b5df010fc7d0f6cdc4bcbc3</sc_cat_item>
+        <sc_category display_value="Care Gaps">f7c4881c1b5df010fc7d0f6cdc4bcb2c</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-07 21:51:27</sys_created_on>
+        <sys_id>6225045c1b5df010fc7d0f6cdc4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Care Gaps.Update Care Gap</sys_name>
+        <sys_package display_value="Value Based Provider Management" source="x_snc_value_base_0">49695f791b0cf810c5780f20604bcb58</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Value Based Provider Management">49695f791b0cf810c5780f20604bcb58</sys_scope>
+        <sys_update_name>sc_cat_item_category_6225045c1b5df010fc7d0f6cdc4bcbce</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-07 21:51:27</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

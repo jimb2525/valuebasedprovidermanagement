@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="VBPM Office Medical Assistant Workspace Config">33cd687a5e8cfc1071a58930c902a499</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Patient Details">126524921b90f810aedf54252a4bcb4d</macroponent>
+        <macroponent_config>{
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>Patient Details default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Patient Details">9a6568521b90f810aedf54252a4bcbed</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-25 12:17:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>ea6524921b90f810aedf54252a4bcb50</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Patient Details default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Value Based Provider Management" source="x_snc_value_base_0">49695f791b0cf810c5780f20604bcb58</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Value Based Provider Management">49695f791b0cf810c5780f20604bcb58</sys_scope>
+        <sys_update_name>sys_ux_screen_ea6524921b90f810aedf54252a4bcb50</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-25 12:22:29</sys_updated_on>
+    </sys_ux_screen>
+</record_update>

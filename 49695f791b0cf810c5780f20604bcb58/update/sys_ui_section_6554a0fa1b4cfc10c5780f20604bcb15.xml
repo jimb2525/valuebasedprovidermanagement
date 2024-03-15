@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="6554a0fa1b4cfc10c5780f20604bcb15" sys_domain="global" table="x_snc_value_base_0_pcp_visits" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:13:58</sys_created_on>
+            <sys_id>2d54a0fa1b4cfc10c5780f20604bcb18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_pcp_visits" sys_domain="global" view="390b6a3787162010518cebdd3fbb3529">6554a0fa1b4cfc10c5780f20604bcb15</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:13:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pcp</element>
+            <position>1</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:13:58</sys_created_on>
+            <sys_id>a154a0fa1b4cfc10c5780f20604bcb19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_pcp_visits" sys_domain="global" view="390b6a3787162010518cebdd3fbb3529">6554a0fa1b4cfc10c5780f20604bcb15</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:13:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_visit</element>
+            <position>2</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:13:58</sys_created_on>
+            <sys_id>2554a0fa1b4cfc10c5780f20604bcb4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_pcp_visits" sys_domain="global" view="390b6a3787162010518cebdd3fbb3529">6554a0fa1b4cfc10c5780f20604bcb15</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:13:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:13:58</sys_created_on>
+            <sys_id>a954a0fa1b4cfc10c5780f20604bcb4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_pcp_visits" sys_domain="global" view="390b6a3787162010518cebdd3fbb3529">6554a0fa1b4cfc10c5780f20604bcb15</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:13:58</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>next_visit</element>
+            <position>4</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:13:58</sys_created_on>
+            <sys_id>2154a0fa1b4cfc10c5780f20604bcb4c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_pcp_visits" sys_domain="global" view="390b6a3787162010518cebdd3fbb3529">6554a0fa1b4cfc10c5780f20604bcb15</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:13:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>patient</element>
+            <position>5</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:13:58</sys_created_on>
+            <sys_id>a554a0fa1b4cfc10c5780f20604bcb4c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_pcp_visits" sys_domain="global" view="390b6a3787162010518cebdd3fbb3529">6554a0fa1b4cfc10c5780f20604bcb15</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:13:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_value_base_0_pcp_visits</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:13:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6554a0fa1b4cfc10c5780f20604bcb15</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_value_base_0_pcp_visits</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Value Based Provider Management" source="x_snc_value_base_0">49695f791b0cf810c5780f20604bcb58</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Value Based Provider Management">49695f791b0cf810c5780f20604bcb58</sys_scope>
+            <sys_update_name>sys_ui_section_6554a0fa1b4cfc10c5780f20604bcb15</sys_update_name>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:13:58</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">390b6a3787162010518cebdd3fbb3529</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

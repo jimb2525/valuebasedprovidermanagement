@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="e7956c3e1b4cfc10c5780f20604bcbca" sys_domain="global" table="x_snc_value_base_0_lab_results" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:40:44</sys_created_on>
+            <sys_id>fd7a68f21b8cfc10c5780f20604bcb9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_lab_results" sys_domain="global" view="390b6a3787162010518cebdd3fbb3529">e7956c3e1b4cfc10c5780f20604bcbca</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:40:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>patient</element>
+            <position>1</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:40:44</sys_created_on>
+            <sys_id>757a68f21b8cfc10c5780f20604bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_lab_results" sys_domain="global" view="390b6a3787162010518cebdd3fbb3529">e7956c3e1b4cfc10c5780f20604bcbca</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:40:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>test</element>
+            <position>2</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:40:44</sys_created_on>
+            <sys_id>f97a68f21b8cfc10c5780f20604bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_lab_results" sys_domain="global" view="390b6a3787162010518cebdd3fbb3529">e7956c3e1b4cfc10c5780f20604bcbca</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:40:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:40:44</sys_created_on>
+            <sys_id>717a68f21b8cfc10c5780f20604bcb9f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_lab_results" sys_domain="global" view="390b6a3787162010518cebdd3fbb3529">e7956c3e1b4cfc10c5780f20604bcbca</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:40:44</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>result</element>
+            <position>4</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:40:44</sys_created_on>
+            <sys_id>f57a68f21b8cfc10c5780f20604bcb9f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_lab_results" sys_domain="global" view="390b6a3787162010518cebdd3fbb3529">e7956c3e1b4cfc10c5780f20604bcbca</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:40:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lab</element>
+            <position>5</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:40:44</sys_created_on>
+            <sys_id>7d7a68f21b8cfc10c5780f20604bcb9f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_lab_results" sys_domain="global" view="390b6a3787162010518cebdd3fbb3529">e7956c3e1b4cfc10c5780f20604bcbca</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:40:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_of_service</element>
+            <position>6</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:40:44</sys_created_on>
+            <sys_id>f17a68f21b8cfc10c5780f20604bcba0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_value_base_0_lab_results" sys_domain="global" view="390b6a3787162010518cebdd3fbb3529">e7956c3e1b4cfc10c5780f20604bcbca</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:40:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_value_base_0_lab_results</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-14 15:19:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e7956c3e1b4cfc10c5780f20604bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_value_base_0_lab_results</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Value Based Provider Management" source="x_snc_value_base_0">49695f791b0cf810c5780f20604bcb58</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Value Based Provider Management">49695f791b0cf810c5780f20604bcb58</sys_scope>
+            <sys_update_name>sys_ui_section_e7956c3e1b4cfc10c5780f20604bcbca</sys_update_name>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-14 15:19:34</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">390b6a3787162010518cebdd3fbb3529</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

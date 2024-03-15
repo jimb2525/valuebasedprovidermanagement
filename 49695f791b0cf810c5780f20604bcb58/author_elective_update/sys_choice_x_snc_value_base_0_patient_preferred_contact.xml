@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="preferred_contact" table="x_snc_value_base_0_patient" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>preferred_contact</element>
+            <name>x_snc_value_base_0_patient</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-07-07 18:56:09</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>preferred_contact</sys_name>
+            <sys_package display_value="Value Based Provider Management" source="x_snc_value_base_0">49695f791b0cf810c5780f20604bcb58</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Value Based Provider Management">49695f791b0cf810c5780f20604bcb58</sys_scope>
+            <sys_update_name>sys_choice_x_snc_value_base_0_patient_preferred_contact</sys_update_name>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-07-07 18:56:09</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>preferred_contact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Email</label>
+            <language>en</language>
+            <name>x_snc_value_base_0_patient</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-07-07 18:56:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-07-07 18:56:09</sys_updated_on>
+            <value>email</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>preferred_contact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Home Phone</label>
+            <language>en</language>
+            <name>x_snc_value_base_0_patient</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-07-07 18:56:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-07-07 18:56:10</sys_updated_on>
+            <value>home_phone</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>preferred_contact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mobile Phone</label>
+            <language>en</language>
+            <name>x_snc_value_base_0_patient</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-07-07 18:56:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-07-07 18:56:10</sys_updated_on>
+            <value>mobile_phone</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>preferred_contact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business Phone</label>
+            <language>en</language>
+            <name>x_snc_value_base_0_patient</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-07-07 18:56:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-07-07 18:56:11</sys_updated_on>
+            <value>business_phone</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

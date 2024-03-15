@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cxs_table_config">
+    <cxs_table_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <agent_intel_tab_active>true</agent_intel_tab_active>
+        <allow_empty_search_term>false</allow_empty_search_term>
+        <allow_expand_collapse>true</allow_expand_collapse>
+        <allow_result_preview_buttons>true</allow_result_preview_buttons>
+        <cxs_context_config display_value="Knowledge ML Search">284d7a2adb5723003cb9fa56bf96196b</cxs_context_config>
+        <enable_source_selector>true</enable_source_selector>
+        <limit>10</limit>
+        <match_condition table="x_snc_value_base_0_care_gaps">active=true</match_condition>
+        <name>Helping Hand [x_snc_value_base_0_care_gaps]</name>
+        <preview_button_active>false</preview_button_active>
+        <related_search_active>true</related_search_active>
+        <required_roles/>
+        <results_header_text>Helping Hand</results_header_text>
+        <results_per_page>10</results_per_page>
+        <search_as_active>false</search_as_active>
+        <search_as_condition/>
+        <search_as_field>patient</search_as_field>
+        <search_as_results_msg>Some results may not be displayed due to security constraints</search_as_results_msg>
+        <search_as_script/>
+        <show_searcher_first>false</show_searcher_first>
+        <sys_class_name>cxs_table_config</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-07 17:03:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b5f247001b95f010fc7d0f6cdc4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Helping Hand [x_snc_value_base_0_care_gaps]</sys_name>
+        <sys_package display_value="Value Based Provider Management" source="x_snc_value_base_0">49695f791b0cf810c5780f20604bcb58</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Value Based Provider Management">49695f791b0cf810c5780f20604bcb58</sys_scope>
+        <sys_update_name>cxs_table_config_b5f247001b95f010fc7d0f6cdc4bcb5e</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-07 17:03:25</sys_updated_on>
+        <table>x_snc_value_base_0_care_gaps</table>
+        <ui_type>workspace</ui_type>
+    </cxs_table_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=b5f247001b95f010fc7d0f6cdc4bcb5e"/>
+</record_update>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5045903a1b0cfc10c5780f20604bcb5f" label="Medications" max_length="40" name="x_snc_value_base_0_medications" type="collection">
+        <element choice="1" label="Date Source" max_length="40" name="date_source" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rx Claim" sequence="10" value="rx_claim"/>
+                <element inactive_on_update="false" label="Patient Reported" sequence="20" value="patient_reported"/>
+            </choice>
+        </element>
+        <element label="Dosage" max_length="20" name="dosage" type="string"/>
+        <element label="Frequency" max_length="40" name="frequency" type="string"/>
+        <element choice="1" label="Indication" max_length="40" name="indication" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Diabetes" sequence="10" value="diabetes"/>
+                <element inactive_on_update="false" label="Pain Relief" sequence="20" value="pain_relief"/>
+            </choice>
+        </element>
+        <element choice="3" label="Medication" max_length="40" name="medication" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Metformin" sequence="10" value="metformin"/>
+                <element inactive_on_update="false" label="Tylenol" sequence="20" value="tylenol"/>
+            </choice>
+        </element>
+        <element choice="1" label="Medication Type" max_length="40" name="medication_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Prescription" sequence="10" value="prescription"/>
+                <element inactive_on_update="false" label="OTC" sequence="20" value="otc"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Patient" max_length="32" name="patient" reference="sys_user" type="reference"/>
+        <element label="Prescriber" max_length="32" name="prescriber" reference="sys_user" type="reference"/>
+        <element choice="3" label="Route" max_length="40" name="route" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Oral" sequence="10" value="oral"/>
+                <element inactive_on_update="false" label="Shot" sequence="20" value="shot"/>
+            </choice>
+        </element>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" sequence="10" value="active"/>
+                <element inactive_on_update="false" label="Halted" sequence="20" value="halted"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="patient"/>
+        </index>
+        <index name="index2">
+            <element name="prescriber"/>
+        </index>
+    </element>
+</database>

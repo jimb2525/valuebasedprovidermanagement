@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="33a258361b0cfc10c5780f20604bcba9" extends="sys_user" label="Patient" max_length="40" name="x_snc_value_base_0_patient" type="collection">
+        <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
+        <element label="Date of Birth" max_length="40" name="date_of_birth" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Preferred Contact" max_length="40" name="preferred_contact" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Email" sequence="10" value="email"/>
+                <element inactive_on_update="false" label="Home Phone" sequence="20" value="home_phone"/>
+                <element inactive_on_update="false" label="Mobile Phone" sequence="30" value="mobile_phone"/>
+                <element inactive_on_update="false" label="Business Phone" sequence="40" value="business_phone"/>
+            </choice>
+        </element>
+        <element label="SSN" max_length="20" name="ssn" type="string"/>
+        <element label="Work Notes" max_length="4000" name="work_notes" type="journal_input"/>
+    </element>
+</database>
